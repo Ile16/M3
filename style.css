@@ -1,0 +1,211 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body {
+    background-color: black;
+}
+
+/* NAVBAR */
+
+.navbar-brand img{
+    max-width: 100px;
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-icon {
+    margin-top: 15px;
+}
+
+.navbar-icon:hover {
+    cursor: pointer;
+}
+
+.icon {
+    list-style: none;
+    color: white;
+}
+
+.icon-item p {
+    margin-bottom: 0;
+    margin: 0 20px;
+    font-size: 12px;
+}
+
+.icon-item .bi-bell-fill {
+    margin-right: 30px;
+}
+
+.nav-link img {
+    max-width: 30px;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.dropdown-menu:last-child {
+    background-color: rgb(43, 40, 40);
+}
+
+.dropdown-menu a {
+    color:rgb(190, 190, 190);
+}
+
+.dropdown-menu li:last-child {
+    border-top: 0.5px solid rgb(190, 190, 190);
+}
+
+.searchBar input {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.searchBar {
+    display: none;
+}
+
+/* MEDIA QUERIES NAVBAR */
+
+/*I link della navbar spariscono*/
+@media screen and (max-width: 600px) {
+    .navbar-nav, .icon li {display:none;}
+}
+
+.bi-list {
+    color: white;
+}
+
+/* SECOND BAR */
+
+.generi {
+    color: white;
+    margin-left: 40px;
+}
+
+#dropdownmenuButton {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    border: 1px solid white;
+    padding: 5px 5px;
+}
+
+.icons2 {
+    margin-left: 75%;
+}
+
+.icons2:hover {
+    cursor: pointer;
+}
+
+.bi-grid-fill, .bi-list {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+/* GRID */
+
+.grid1 {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.grid1 h6 {
+    color: white;
+    margin-left: 40px
+}
+
+.container-fluid img:hover {
+    cursor: pointer;
+    border: 1px solid red;
+    width: 320px;
+}
+
+.container-fluid img {
+    transition: width 1s;
+}
+
+.row { 
+    flex-wrap:nowrap;
+}
+
+.row img {
+    width: 250px;
+}
+
+.col {
+    padding: 2px 1px;
+}
+
+.row:nth-child(1) {
+    margin-left: 30px;
+}
+
+/* FOOTER */
+
+.elements p:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.social {
+    color: rgb(190, 190, 190);
+    font-size: 25px;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.social i {
+    padding: 0 8px;
+    color: rgb(190, 190, 190);
+}
+
+.details {
+    color: rgb(190, 190, 190);
+    font-size: 10px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+} 
+
+.details p {
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+
+.firstdet {
+    padding-right: 100px;
+}
+
+.firstdet p {
+    margin-bottom: 0;
+}
+
+.el-foot {
+    color: rgb(190, 190, 190);
+    margin-left: 25%;
+}
+
+.el-foot p:first-child{
+    border: 1px solid rgb(190, 190, 190);
+    width: 120px;
+    padding: 5px 10px;
+}
+
+.el-foot p:last-child {
+    font-size: 10px;
+}
